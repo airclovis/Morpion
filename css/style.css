@@ -1,0 +1,35 @@
+/**
+ * Style for grid
+ *
+ **/
+
+table{
+	table-layout: fixed;
+	width: 600px;
+	float: left;
+
+}
+
+table tr{
+	height: 200px;
+}
+
+table, td{
+	border: solid 5px black;
+	border-collapse: collapse;
+	font-size: 200px;
+	text-align: center;
+}
+
+/**
+ * Style for info panel
+ **/
+
+#info_panel{
+	margin-left: 600px;
+	padding-left: 10px;
+}
+
+#warning{
+	color: red;
+}
